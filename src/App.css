@@ -1,1 +1,32 @@
-div{color: antiquewhite;}
+body{
+    background-image: url(https://images.unsplash.com/photo-1503480207415-fdddcc21d5fc?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80);
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column;
+    text-align: center;
+}
+.weather-box{
+    border: 2px solid white;
+    padding: 100px;
+    border-radius: 30px;
+    background-color: azure;
+    background-color: rgba(255, 255, 255, 0.4);
+    line-height: 30px;
+    font-size: 24px;
+    font-weight: bold;
+    color: rgb(174, 33, 33);
+}
+.weather-box h2{
+    margin: 10px 0;
+    color: rgb(46, 86, 187);
+}
+.weather-box h3{
+    color: rgb(24, 162, 100);
+}
